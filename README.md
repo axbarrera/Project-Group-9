@@ -1,7 +1,7 @@
 # Quandl Project:<br/>
 ***
 
-Members:<br/> 
+**Members:**<br/> 
 Alex Barrera<br/>
 Andrew Page<br/>
 Shail Shouryya<br/>
