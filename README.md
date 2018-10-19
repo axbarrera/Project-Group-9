@@ -7,7 +7,7 @@ Andrew Page<br/>
 Shail Shouryya<br/>
 
 ## The Ask:<br/>
-***
+
 
 Before you start writing any code, remember that you only have one week to complete this project. View this project as a typical assignment from work. Imagine a bunch of data came in and you and your team are tasked with migrating it to a production database
 Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:<br/>
@@ -25,7 +25,7 @@ Visualize the newly transformed data and perform a basic analysis for others to 
 ## Our Finished Products:<br/>
 
 ### Our ETL Process:<br/>
-***
+
 
 Our first step was to find two interesting datasets**. We decided to use investor sentiment data and total energy consumption in the United States. We used monthly data points from 06/1987 through 06/2018. More information about the sets can be found at the bottom of this readme. We then downloaded these datasets as CSV files from quandl.com.<br/>
 
@@ -38,11 +38,10 @@ Since MongoDB would be our target database we then set out to convert our pandas
 Our finished entrey into MongoDB formatted as follows:<br/>
 
 ### Visualization:<br/>
-***
+
 
 
 ##### ** Datasets Used:<br/>
-***
 1.<br/>
 Investor Sentiment Data from the American Association of Individual Investors
 The AAII Investor Sentiment Survey measures the percentage of individual investors who are bullish, bearish, and neutral on the stock market for the next six months; individuals are polled from the ranks of the AAII membership on a weekly basis. Only one vote per member is accepted in each weekly voting period.<br/>
