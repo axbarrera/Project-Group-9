@@ -17,11 +17,21 @@ You will be required to submit a final technical report with the above informati
 
 Optional Assignment:
 
-Visualize the newly transformed data for others to view
+Visualize the newly transformed data and perform a basic analysis for others to view.
 
 ## Our Finished Products:
 
 ### Our ETL Process:
+
+Our first step was to find two interesting datasets**. We decided to use investor sentiment data and total energy consumption in the United States. We used monthly data points from 06/1987 through 06/2018. More information about the sets can be found at the bottom of this readme. We then downloaded these datasets as CSV files from quandl.com.
+
+We then merged our datasets together via pandas. Since each data-set had a different date format we had to create a conversion method to transform the different date-texts into a compatible form. Once this was achieved we left-joined the two data-frames on our newly created column "Date_Index". Next we set about to clean up the dataframe by dropping NAN values and removing unnecessary columns.
+
+We decided to load our data into a non-relational database (MongoDB). We chose this db since it is still a fairly new tool we have learned about and wanted the practice. Since our data conforms to the formatting standards required by relational databases we could have also used SQL.
+
+Since MongoDB would be our target database we then set out to convert our pandas dataframes into JSON. From there we wrote a simple script to load the information into MonogoDB.
+
+Our finished entrey into MongoDB formatted as follows:
 
 ### Visualization:
 
