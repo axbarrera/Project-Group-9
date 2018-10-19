@@ -18,11 +18,6 @@ Once you have identified your datasets, perform ETL on the data. Make sure to pl
 
 You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.<br/>
 
-Optional Assignment:<br/>
-
-Visualize the newly transformed data and perform a basic analysis for others to view.<br/>
-
-## Our Finished Products:<br/>
 
 ### Our ETL Process:<br/>
 
@@ -37,7 +32,8 @@ Since MongoDB would be our target database we then set out to convert our pandas
 
 Our finished entrey into MongoDB formatted as follows:<br/>
 
-### Visualization:<br/>
+{"_id":"5bc94092633b0d0e3058d288","Date_Index":"9-1987","Total Primary Energy Consumption (Quadrillion BTUs)":6.127542,"Bullish Sentiment":0.53,"Neutral Sentiment":0.17,"Bearish Sentiment":0.3,"Bull-Bear Spread":0.23,"S&P 500 Weekly Close":320.16} <br/>
+
 
 
 
